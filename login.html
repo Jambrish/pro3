@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Metadata for the document -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Title of the webpage -->
+    <title>Login - Secret Glow</title>
+    
+    <!-- External CSS file for styling -->
+    <link rel="stylesheet" href="login.css">
+    
+    <!-- External JS file for JavaScript functionality, loaded after the page content -->
+    <script src="login.js" defer></script>
+</head>
+<body>
+    <!-- Main login section -->
+    <section class="login-section">
+        
+        <!-- Logo and tagline -->
+        <div class="logo">
+            <img src="Images/logo.png" alt="Secret Glow Logo">
+            <!-- Tagline under logo -->
+            <span>"Your Secret to Radiance"</span>
+        </div>
+        
+        <!-- Container for the login form -->
+        <div class="login-form-container">
+            <h1>Welcome Back</h1>
+            
+            <!-- Login form -->
+            <form id="loginForm">
+                <!-- Username input field -->
+                <div class="form-group">
+                    <label for="username">Username:</label>
+                    <input type="text" id="username" name="username" required>
+                </div>
+                
+                <!-- Password input field -->
+                <div class="form-group">
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password" required>
+                </div>
+                
+                <!-- Submit button for the login form -->
+                <button type="submit" class="btn primary">Login</button>
+            </form>
+            
+            <!-- Link for users to register if they don't have an account -->
+            <p class="register-link">
+                Don't have an account? <a href="#">Register here</a>
+            </p>
+        </div>
+    </section>
+
+    <!-- Footer section -->
+    <footer class="footer">
+        <p>&copy; 2024 Secret Glow - All Rights Reserved</p>
+    </footer>
+</body>
+</html>
